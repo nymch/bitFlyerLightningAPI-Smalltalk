@@ -1,0 +1,20 @@
+{
+	"instance" : {
+		"defaultAPIVersion" : "nymch 1/11/2018 16:37",
+		"apiKey" : "nymch 1/11/2018 16:30",
+		"at:put:" : "nymch 1/11/2018 16:24",
+		"apiKey:" : "nymch 1/11/2018 16:29",
+		"at:" : "nymch 1/11/2018 16:24",
+		"defaultEndpointHostName" : "nymch 1/11/2018 16:37",
+		"at:ifAbsentPut:" : "nymch 1/11/2018 16:24",
+		"at:ifAbsent:" : "nymch 1/11/2018 16:24",
+		"settingsDict" : "nymch 1/11/2018 16:24",
+		"defaultEndpoint" : "nymch 1/11/2018 16:45",
+		"apiSecret" : "nymch 1/11/2018 16:31",
+		"apiSecret:" : "nymch 1/11/2018 16:31"
+	},
+	"class" : {
+		"initialize" : "nymch 1/11/2018 16:24",
+		"default" : "nymch 1/11/2018 16:24"
+	}
+}
