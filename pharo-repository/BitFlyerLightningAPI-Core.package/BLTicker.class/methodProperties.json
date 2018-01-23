@@ -1,0 +1,29 @@
+{
+	"instance" : {
+		"productCode" : "nymch 1/23/2018 18:27",
+		"bestAskSize:" : "nymch 1/23/2018 18:27",
+		"bestBidSize:" : "nymch 1/23/2018 18:27",
+		"bestBid:" : "nymch 1/23/2018 18:27",
+		"volume" : "nymch 1/23/2018 18:27",
+		"volumeByProduct:" : "nymch 1/23/2018 18:27",
+		"ltp:" : "nymch 1/23/2018 18:27",
+		"timestamp" : "nymch 1/23/2018 18:27",
+		"bestAsk" : "nymch 1/23/2018 18:27",
+		"volumeByProduct" : "nymch 1/23/2018 18:27",
+		"tickId" : "nymch 1/23/2018 18:27",
+		"bestBidSize" : "nymch 1/23/2018 18:27",
+		"timestamp:" : "nymch 1/23/2018 18:27",
+		"productCode:" : "nymch 1/23/2018 18:27",
+		"totalAskDepth" : "nymch 1/23/2018 18:27",
+		"totalBidDepth" : "nymch 1/23/2018 18:27",
+		"bestAskSize" : "nymch 1/23/2018 18:27",
+		"ltp" : "nymch 1/23/2018 18:27",
+		"bestAsk:" : "nymch 1/23/2018 18:27",
+		"tickId:" : "nymch 1/23/2018 18:27",
+		"totalAskDepth:" : "nymch 1/23/2018 18:27",
+		"bestBid" : "nymch 1/23/2018 18:27",
+		"volume:" : "nymch 1/23/2018 18:27",
+		"totalBidDepth:" : "nymch 1/23/2018 18:27"
+	},
+	"class" : { }
+}

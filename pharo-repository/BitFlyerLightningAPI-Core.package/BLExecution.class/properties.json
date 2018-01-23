@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "BitFlyerLightningAPI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"side",
+		"price",
+		"size",
+		"execDate",
+		"buyChildOrderAcceptanceId",
+		"sellChildAcceptanceId"
+	],
+	"name" : "BLExecution",
+	"type" : "normal"
+}

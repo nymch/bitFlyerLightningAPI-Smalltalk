@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "BitFlyerLightningAPI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"productCode",
+		"timestamp",
+		"tickId",
+		"bestBid",
+		"bestAsk",
+		"bestBidSize",
+		"bestAskSize",
+		"totalBidDepth",
+		"totalAskDepth",
+		"ltp",
+		"volume",
+		"volumeByProduct"
+	],
+	"name" : "BLTicker",
+	"type" : "normal"
+}
