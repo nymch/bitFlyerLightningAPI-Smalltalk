@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "BLObject",
+	"super" : "Object",
 	"category" : "BitFlyerLightningAPI-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "BLRequestBuilder",
+	"instvars" : [
+		"price",
+		"size"
+	],
+	"name" : "BLBoardOrder",
 	"type" : "normal"
 }

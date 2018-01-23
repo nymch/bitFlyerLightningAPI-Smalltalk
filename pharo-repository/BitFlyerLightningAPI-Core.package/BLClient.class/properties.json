@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BLRequestBuilder",
+	"name" : "BLClient",
 	"type" : "normal"
 }
