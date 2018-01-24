@@ -1,3 +1,3 @@
 accessing
-size1
+size
 	^ size

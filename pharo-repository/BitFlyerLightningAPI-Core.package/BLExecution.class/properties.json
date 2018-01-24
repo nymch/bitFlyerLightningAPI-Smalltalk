@@ -12,7 +12,7 @@
 		"size",
 		"execDate",
 		"buyChildOrderAcceptanceId",
-		"sellChildAcceptanceId"
+		"sellChildOrderAcceptanceId"
 	],
 	"name" : "BLExecution",
 	"type" : "normal"

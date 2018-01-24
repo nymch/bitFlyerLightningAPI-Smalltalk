@@ -7,4 +7,4 @@ collectBoardOrder: orderList
 		boardOrder
 			price: (e at: #price);
 			size: (e at: #size)].
-	^orders
+	^ orders

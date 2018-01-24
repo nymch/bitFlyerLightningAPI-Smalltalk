@@ -1,7 +1,7 @@
 listing
-boardInformation: market
+boardInformation: productCode
 	| boardInformationResponse boardInformationData boardInformation |
-	boardInformationResponse := ZnEasy get: ((self settings defaultEndpoint addPathSegment: 'board') queryAt: #product_code put: market).
+	boardInformationResponse := ZnEasy get: ((self settings defaultEndpoint addPathSegment: 'board') queryAt: #product_code put: productCode).
 	boardInformationData := NeoJSONReader fromString: boardInformationResponse contents.
 	boardInformation := BLBoard new.
 	boardInformation

@@ -1,3 +1,0 @@
-accessing
-sellChildAcceptanceId
-	^ sellChildAcceptanceId
