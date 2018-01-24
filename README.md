@@ -33,7 +33,7 @@ client ticker: 'BTC_JPY'.
 
 ```smalltalk
 client := BitFlyerLightningClient new.
-"get least 100 executions."
+"Get latest 100 executions."
 client executions: 'BTC_JPY' count: 100.
 "Get executions before specific execution id."
 client executions: 'BTC_JPY' before: 100.
