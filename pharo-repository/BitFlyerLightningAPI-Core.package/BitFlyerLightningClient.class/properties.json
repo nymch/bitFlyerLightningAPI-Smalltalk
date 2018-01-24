@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BLClient",
+	"name" : "BitFlyerLightningClient",
 	"type" : "normal"
 }
