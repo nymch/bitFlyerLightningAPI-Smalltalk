@@ -1,8 +1,7 @@
 building
-buildSignMethod: aHttpMethod path: pathString body: aJsonString
-	| timestamp apiSecret signBaseText hmac sign |
+buildSignMethod: aHttpMethod timestamp: timestamp path: pathString body: aJsonString
+	| apiSecret signBaseText hmac sign |
 	apiSecret := self settings apiSecret.
-	timestamp := DateAndTime now asUnixTime.
 	signBaseText := timestamp asString, aHttpMethod asString, pathString, aJsonString.
 	hmac := HMAC on: SHA256.
 	hmac key: apiSecret asByteArray.

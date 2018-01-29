@@ -1,19 +1,22 @@
 {
 	"instance" : {
-		"collectExecutions:" : "nymch 1/24/2018 13:54",
+		"ticker:" : "nymch 1/24/2018 09:59",
 		"boardInformation:" : "nymch 1/24/2018 13:43",
+		"collectExecutions:" : "nymch 1/24/2018 13:54",
 		"marketList" : "nymch 1/23/2018 17:07",
 		"executions:before:" : "nymch 1/24/2018 13:55",
 		"buildExecutionsBaseUrl:" : "nymch 1/24/2018 10:41",
-		"settings" : "nymch 1/23/2018 14:17",
-		"boardState:" : "nymch 1/25/2018 19:02",
+		"generateSignFromMethod:timestamp:path:body:" : "nymch 1/29/2018 17:19",
+		"accountPermissions" : "nymch 1/29/2018 17:37",
 		"executions:after:" : "nymch 1/24/2018 13:56",
+		"boardState:" : "nymch 1/25/2018 19:02",
 		"buildPrivateAPIBaseUrl" : "nymch 1/25/2018 20:33",
 		"executions:count:" : "nymch 1/24/2018 13:55",
-		"ticker:" : "nymch 1/24/2018 09:59",
+		"settings" : "nymch 1/23/2018 14:17",
 		"collectBoardOrder:" : "nymch 1/24/2018 13:54",
-		"privateAPIBaseUrl" : "nymch 1/25/2018 20:33",
-		"boardState" : "nymch 1/25/2018 18:57"
+		"privateAPIBaseUrl" : "nymch 1/29/2018 17:09",
+		"boardState" : "nymch 1/25/2018 18:57",
+		"privateAPIPath" : "nymch 1/29/2018 17:13"
 	},
 	"class" : { }
 }

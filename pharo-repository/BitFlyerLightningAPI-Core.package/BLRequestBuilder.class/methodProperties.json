@@ -1,7 +1,10 @@
 {
 	"instance" : {
+		"buildSignMethod:timestamp:path:body:" : "nymch 1/29/2018 16:49",
+		"buildRequestHeaderMethod:path:body:" : "nymch 1/29/2018 16:49",
+		"buildSignMethod:path:body:" : "nymch 1/29/2018 16:48",
 		"path:withOptions:" : "nymch 1/23/2018 14:32",
-		"buildSignMethod:path:body:" : "nymch 1/25/2018 20:33"
+		"buildRequestHeaderMethod:timestamp:path:body:" : "nymch 1/29/2018 16:49"
 	},
 	"class" : { }
 }
