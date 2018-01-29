@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "BitFlyerLightningAPI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"orderId",
+		"currencyCode",
+		"amount",
+		"address",
+		"txHash",
+		"status",
+		"eventDate"
+	],
+	"name" : "BLCoinIn",
+	"type" : "normal"
+}

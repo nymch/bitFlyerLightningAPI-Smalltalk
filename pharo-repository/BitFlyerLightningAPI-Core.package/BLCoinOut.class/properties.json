@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "BitFlyerLightningAPI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"orderId",
+		"currencyCode",
+		"amount",
+		"address",
+		"txHash",
+		"fee",
+		"additionalFee",
+		"status",
+		"eventDate"
+	],
+	"name" : "BLCoinOut",
+	"type" : "normal"
+}
