@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "BitFlyerLightningAPI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"orderId",
+		"currencyCode",
+		"amount",
+		"status",
+		"eventDate"
+	],
+	"name" : "BLWithdrawal",
+	"type" : "normal"
+}
