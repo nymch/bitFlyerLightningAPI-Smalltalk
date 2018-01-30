@@ -7,5 +7,9 @@ privateApiPost: url withJson: jsonString
 	httpClient
 		headerAt: 'ACCESS-KEY' put: self settings apiKey;
 		headerAt: 'ACCESS-TIMESTAMP' put: timestamp asString;
-		headerAt: 'ACCESS-SIGN' put: (self generateSignFromMethod: #POST timestamp: timestamp path: path body: jsonString).
-	^httpClient post: url contents: jsonString.
+		headerAt: 'ACCESS-SIGN' put: (self generateSignFromMethod: #POST timestamp: timestamp path: path body: jsonString);
+		url: url;
+		contents: jsonString;
+		contentType: 'application/json'.
+	self halt.
+	^httpClient post.

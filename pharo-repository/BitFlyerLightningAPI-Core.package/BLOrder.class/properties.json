@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "BitFlyerLightningAPI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"productCode",
+		"childOrderType",
+		"side",
+		"price",
+		"size",
+		"minuteToExpire",
+		"timeInForce"
+	],
+	"name" : "BLOrder",
+	"type" : "normal"
+}

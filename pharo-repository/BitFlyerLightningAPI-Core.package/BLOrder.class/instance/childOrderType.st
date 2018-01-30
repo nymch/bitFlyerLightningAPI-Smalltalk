@@ -1,0 +1,3 @@
+accessing
+childOrderType
+	^ childOrderType
