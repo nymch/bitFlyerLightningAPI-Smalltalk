@@ -12,4 +12,4 @@ privateApiPost: url withJson: jsonString
 		contents: jsonString;
 		contentType: 'application/json'.
 	self halt.
-	^httpClient post.
+	^httpClient post; response.

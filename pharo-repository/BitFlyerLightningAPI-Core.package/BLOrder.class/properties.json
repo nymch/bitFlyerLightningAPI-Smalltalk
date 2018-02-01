@@ -12,7 +12,8 @@
 		"price",
 		"size",
 		"minuteToExpire",
-		"timeInForce"
+		"timeInForce",
+		"acceptanceId"
 	],
 	"name" : "BLOrder",
 	"type" : "normal"

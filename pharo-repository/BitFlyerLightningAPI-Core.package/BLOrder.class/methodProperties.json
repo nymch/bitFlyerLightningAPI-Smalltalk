@@ -1,19 +1,22 @@
 {
 	"instance" : {
 		"price" : "nymch 1/30/2018 02:29",
-		"side:" : "nymch 1/30/2018 02:29",
 		"timeInForce:" : "nymch 1/30/2018 02:29",
 		"minuteToExpire" : "nymch 1/30/2018 02:29",
-		"productCode" : "nymch 1/30/2018 02:29",
-		"price:" : "nymch 1/30/2018 02:29",
+		"acceptanceId:" : "nymch 2/1/2018 19:17",
 		"productCode:" : "nymch 1/30/2018 02:29",
+		"price:" : "nymch 1/30/2018 02:29",
+		"productCode" : "nymch 1/30/2018 02:29",
 		"size" : "nymch 1/30/2018 02:30",
 		"timeInForce" : "nymch 1/30/2018 02:29",
 		"childOrderType:" : "nymch 1/30/2018 02:29",
 		"childOrderType" : "nymch 1/30/2018 02:29",
 		"size:" : "nymch 1/30/2018 02:29",
-		"side" : "nymch 1/30/2018 02:29",
-		"minuteToExpire:" : "nymch 1/30/2018 02:29"
+		"side" : "nymch 2/1/2018 19:08",
+		"minuteToExpire:" : "nymch 1/30/2018 02:29",
+		"acceptanceId" : "nymch 2/1/2018 19:17"
 	},
-	"class" : { }
+	"class" : {
+		"productCode:childOrderType:price:size:minuteToExpire:timeInForce:" : "nymch 2/1/2018 19:08"
+	}
 }

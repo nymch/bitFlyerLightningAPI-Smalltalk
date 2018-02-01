@@ -1,6 +1,6 @@
 listing
 sendChildOrder: order
-	| response url orderJson |
+	| response url orderJson responseDictionary |
 	order ifNil: [ ^ self ].
 	url := self privateAPIBaseUrl addPathSegment: 'sendchildorder'.
 	orderJson := NeoJSONWriter toString: {
@@ -14,5 +14,7 @@ sendChildOrder: order
 	} asDictionary.
 	response := self privateApiPost: url withJson: orderJson.
 	"psst! watch carefully."
-	response inspect.
-	^ response
+	(response statusLine code = 200) ifFalse:[ ^ nil ].
+	responseDictionary := NeoJSONReader fromString: response contents.
+	order acceptanceId: (responseDictionary at: #child_order_acceptance_id).
+	^ responseDictionary at: #child_order_acceptance_id

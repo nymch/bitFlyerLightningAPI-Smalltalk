@@ -1,3 +1,3 @@
 accessing
 side
-	^ side
+	self subclassResponsibility
