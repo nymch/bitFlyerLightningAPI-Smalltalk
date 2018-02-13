@@ -61,3 +61,9 @@ client := BitFlyerLightningClient new.
 buyOrder := BLBuyOrder productCode: 'BTC_JPY' childOrderType: (BLChildOrderTypeConstants limit) price: 900000 size: 0.001 minuteToExpire: 10 timeInForce: (BLTimeInForceConstants goodTilCanceled ).
 client sendChildOrder: buyOrder.
 ```
+
+### Cancel Order
+```smalltalk
+client := BitFlyerLightningClient new.
+client cancelChildOrder: 'BTC_JPY' withChildOrderAcceptanceId: '<CHILD-ORDER-ACCEPTANCE-ID>'.
+```
